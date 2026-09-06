@@ -1,0 +1,17 @@
+{
+  "change_scope": "Documentation and packaging only",
+  "lean_build_rerun": false,
+  "lean_files_unchanged": 48,
+  "source_and_build_files_compared": 54,
+  "comparison_result": "All protected source and build files match the recorded build manifest and supplied archive byte for byte.",
+  "source_check_exit_code": 0,
+  "recorded_build": {
+    "checked_at_utc": "2026-09-05T22:36:44.061038+00:00",
+    "lean": "4.19.0",
+    "mathlib": "v4.19.0",
+    "named_theorems_audited": 359,
+    "environment_theorems_audited": 517,
+    "verification_exit_code": 0,
+    "log_sha256": "5d1ae82e6f4ec8e950a529c7e8c6548a4d9923b40bdfa814b6ea3c10eb06cbab"
+  }
+}

@@ -1,0 +1,448 @@
+import SamplingLowerBounds
+
+/- Kernel dependencies of all named public theorem/lemma declarations. -/
+
+-- ActualAmplification.lean
+#print axioms SamplingLowerBounds.bernoulliProduct_pos
+#print axioms SamplingLowerBounds.bernoulliProduct_sum
+#print axioms SamplingLowerBounds.CubeTilt.singleLaw_expectation
+#print axioms SamplingLowerBounds.CubeTilt.pairLaw_expectation
+#print axioms SamplingLowerBounds.CubeTilt.pairedCoordinateLaw_sum
+#print axioms SamplingLowerBounds.CubeTilt.pairedCoordinateLaw_expectation
+#print axioms SamplingLowerBounds.CubeTilt.pairedCoordinateLaw_KL
+#print axioms SamplingLowerBounds.overlap_bound_of_cube_gap
+
+-- AffinePair.lean
+#print axioms SamplingLowerBounds.AffinePair.affinePair_bijective
+#print axioms SamplingLowerBounds.AffinePair.affinePair_expect
+#print axioms SamplingLowerBounds.AffinePair.affinePair_factor
+#print axioms SamplingLowerBounds.AffinePair.affinePair_factor_iterated
+#print axioms SamplingLowerBounds.AffinePair.differing_bits_factor
+#print axioms SamplingLowerBounds.AffinePair.vertex_as_offset
+#print axioms SamplingLowerBounds.AffinePair.cube_vertex_expect
+#print axioms SamplingLowerBounds.AffinePair.cube_single_expect
+#print axioms SamplingLowerBounds.AffinePair.shifted_cube_pair
+#print axioms SamplingLowerBounds.AffinePair.conditioned_cube_pair
+#print axioms SamplingLowerBounds.AffinePair.cube_pair_factor
+#print axioms SamplingLowerBounds.AffinePair.cube_pair_events
+
+-- Amplification.lean
+#print axioms SamplingLowerBounds.amplification_of_moment_bounds
+#print axioms SamplingLowerBounds.amplification_of_coordinate_information
+
+-- AndBlocks.lean
+#print axioms SamplingLowerBounds.FlatGraph.pushMass_product
+#print axioms SamplingLowerBounds.FlatGraph.uniformMass_function
+#print axioms SamplingLowerBounds.FlatGraph.blockAND_true_iff
+#print axioms SamplingLowerBounds.FlatGraph.blockAND_true_mass
+#print axioms SamplingLowerBounds.FlatGraph.blockAND_law
+#print axioms SamplingLowerBounds.FlatGraph.disjointAND_law
+#print axioms SamplingLowerBounds.FlatGraph.overlap_disjointAND_graph_le
+#print axioms SamplingLowerBounds.FlatGraph.paddedAND_active_law
+#print axioms SamplingLowerBounds.FlatGraph.overlap_paddedAND_graph_le
+#print axioms SamplingLowerBounds.FlatGraph.paddedAND_support_card
+#print axioms SamplingLowerBounds.FlatGraph.hierarchyBlocks_seed_bound
+#print axioms SamplingLowerBounds.FlatGraph.hierarchyBlocks_label_bound
+#print axioms SamplingLowerBounds.FlatGraph.hierarchySeed_card
+#print axioms SamplingLowerBounds.FlatGraph.hierarchyLabels_card
+#print axioms SamplingLowerBounds.FlatGraph.hierarchy_support_card
+#print axioms SamplingLowerBounds.FlatGraph.hierarchy_atom_mass
+#print axioms SamplingLowerBounds.FlatGraph.hierarchy_ambient_card
+#print axioms SamplingLowerBounds.FlatGraph.hierarchyBlocks_entropy_bound_nat
+#print axioms SamplingLowerBounds.FlatGraph.hierarchyBlocks_entropy_bound
+#print axioms SamplingLowerBounds.FlatGraph.hierarchy_multiplication_count
+
+-- AndPolynomial.lean
+#print axioms SamplingLowerBounds.PolynomialModel.blockPolynomial_totalDegree
+#print axioms SamplingLowerBounds.PolynomialModel.eval_blockPolynomial
+#print axioms SamplingLowerBounds.PolynomialModel.paddedLabelPolynomial_degree_le
+#print axioms SamplingLowerBounds.PolynomialModel.paddedLabelPolynomial_active_degree
+#print axioms SamplingLowerBounds.PolynomialModel.graphPolynomial_degree_le
+#print axioms SamplingLowerBounds.PolynomialModel.graphPolynomial_degree_exact
+#print axioms SamplingLowerBounds.PolynomialModel.paddedLabelPolynomial_locality
+
+-- AndPolynomialBridge.lean
+#print axioms SamplingLowerBounds.PolynomialModel.bool_product_eq_AND
+#print axioms SamplingLowerBounds.PolynomialModel.eval_paddedAND_label
+#print axioms SamplingLowerBounds.PolynomialModel.eval_graphPolynomial_bits
+#print axioms SamplingLowerBounds.PolynomialModel.canonicalANDSource_exact_degree
+#print axioms SamplingLowerBounds.PolynomialModel.canonicalANDSource_boolEval
+#print axioms SamplingLowerBounds.PolynomialModel.splitSeed_uniform
+#print axioms SamplingLowerBounds.PolynomialModel.canonicalANDSource_outputLaw
+#print axioms SamplingLowerBounds.PolynomialModel.canonicalDependencies_card
+#print axioms SamplingLowerBounds.PolynomialModel.canonicalANDSource_locality
+#print axioms SamplingLowerBounds.PolynomialModel.canonicalSampler_is_polynomial
+
+-- BernoulliTests.lean
+#print axioms SamplingLowerBounds.Information.bernoulliMass_pos
+#print axioms SamplingLowerBounds.Information.bernoulliMass_sum
+#print axioms SamplingLowerBounds.Information.bernoulli_variance
+#print axioms SamplingLowerBounds.Information.bernoulli_pair_mean
+#print axioms SamplingLowerBounds.Information.bernoulli_pair_range
+#print axioms SamplingLowerBounds.Information.bernoulli_diagonal_range
+
+-- BernoulliVariance.lean
+#print axioms SamplingLowerBounds.Information.bernoulli_pair_variance
+#print axioms SamplingLowerBounds.Information.bernoulli_diagonal_centered_mean
+#print axioms SamplingLowerBounds.Information.bernoulli_diagonal_centered_variance
+#print axioms SamplingLowerBounds.Information.bernoulli_diagonal_variance_le
+#print axioms SamplingLowerBounds.Information.bernoulli_pair_abs_le_one
+#print axioms SamplingLowerBounds.Information.bernoulli_diagonal_centered_abs_le_one
+
+-- BinaryPinsker.lean
+#print axioms SamplingLowerBounds.Information.mul_log_div
+#print axioms SamplingLowerBounds.Information.binaryKL_eq_entropy
+#print axioms SamplingLowerBounds.Information.binary_pinsker
+
+-- BoundedVariance.lean
+#print axioms SamplingLowerBounds.Information.finiteKL_variational
+#print axioms SamplingLowerBounds.Information.exp_le_one_add_add_sq
+#print axioms SamplingLowerBounds.Information.finite_mgf_le_exp_variance
+#print axioms SamplingLowerBounds.Information.product_mgf_eq
+#print axioms SamplingLowerBounds.Information.product_mgf_le_exp_variance
+#print axioms SamplingLowerBounds.Information.finite_entropy_variance_parametric
+#print axioms SamplingLowerBounds.Information.entropy_variance_optimization
+#print axioms SamplingLowerBounds.Information.finite_entropy_bounded_variance
+
+-- CoordinateEncoding.lean
+#print axioms SamplingLowerBounds.FlatGraph.coordinateEncoding_active
+#print axioms SamplingLowerBounds.FlatGraph.coordinateEncoding_symm_active
+#print axioms SamplingLowerBounds.FlatGraph.uniformMass_equiv
+#print axioms SamplingLowerBounds.FlatGraph.massOverlap_equiv
+
+-- Cube.lean
+#print axioms SamplingLowerBounds.Cube.card_tuple
+#print axioms SamplingLowerBounds.Cube.mean_sq_le
+#print axioms SamplingLowerBounds.Cube.mean_pow_two_le
+#print axioms SamplingLowerBounds.Cube.vertex_translate
+#print axioms SamplingLowerBounds.Cube.weight_succ
+#print axioms SamplingLowerBounds.Cube.meanWeight_succ
+#print axioms SamplingLowerBounds.Cube.mean_translate
+#print axioms SamplingLowerBounds.Cube.mean_correlation
+#print axioms SamplingLowerBounds.Cube.weighted_affine_cube_lower_bound
+#print axioms SamplingLowerBounds.Cube.meanWeight_pos
+#print axioms SamplingLowerBounds.Cube.meanWeight_le_one
+
+-- CubeTilt.lean
+#print axioms SamplingLowerBounds.CubeTilt.uniformMass_nonneg
+#print axioms SamplingLowerBounds.CubeTilt.uniformMass_pos
+#print axioms SamplingLowerBounds.CubeTilt.uniformMass_sum
+#print axioms SamplingLowerBounds.CubeTilt.uniform_normalizer
+#print axioms SamplingLowerBounds.CubeTilt.uniform_event
+#print axioms SamplingLowerBounds.CubeTilt.outputLaw_nonneg
+#print axioms SamplingLowerBounds.CubeTilt.outputLaw_sum
+#print axioms SamplingLowerBounds.CubeTilt.outputLaw_pos_on_image
+#print axioms SamplingLowerBounds.CubeTilt.overlap_pos
+#print axioms SamplingLowerBounds.CubeTilt.overlap_le_one
+#print axioms SamplingLowerBounds.CubeTilt.retention_nonneg
+#print axioms SamplingLowerBounds.CubeTilt.retention_le_one
+#print axioms SamplingLowerBounds.CubeTilt.retention_expectation
+#print axioms SamplingLowerBounds.CubeTilt.parameter_normalizer
+#print axioms SamplingLowerBounds.CubeTilt.overlap_pow_le_normalizer
+#print axioms SamplingLowerBounds.CubeTilt.normalizer_pos
+#print axioms SamplingLowerBounds.CubeTilt.normalizer_le_one
+#print axioms SamplingLowerBounds.CubeTilt.law_nonneg
+#print axioms SamplingLowerBounds.CubeTilt.law_sum
+#print axioms SamplingLowerBounds.CubeTilt.uniform_vertex_law
+#print axioms SamplingLowerBounds.CubeTilt.uniform_pair_law
+#print axioms SamplingLowerBounds.CubeTilt.single_domination
+#print axioms SamplingLowerBounds.CubeTilt.pair_domination
+#print axioms SamplingLowerBounds.CubeTilt.singleLaw_sum
+#print axioms SamplingLowerBounds.CubeTilt.pairLaw_sum
+#print axioms SamplingLowerBounds.CubeTilt.single_KL_budget
+#print axioms SamplingLowerBounds.CubeTilt.pair_KL_budget
+#print axioms SamplingLowerBounds.CubeTilt.information_budgets
+
+-- DataProcessing.lean
+#print axioms SamplingLowerBounds.Information.pushMass_nonneg
+#print axioms SamplingLowerBounds.Information.pushMass_expectation
+#print axioms SamplingLowerBounds.Information.pushMass_sum
+#print axioms SamplingLowerBounds.Information.le_pushMass
+#print axioms SamplingLowerBounds.Information.pushMass_pos_of_surjective
+#print axioms SamplingLowerBounds.Information.finiteKL_data_processing
+
+-- DyadicSampling.lean
+#print axioms SamplingLowerBounds.PolynomialModel.dyadic_probability_pos
+#print axioms SamplingLowerBounds.PolynomialModel.dyadic_probability_lt_one
+#print axioms SamplingLowerBounds.PolynomialModel.dyadic_cube_size
+#print axioms SamplingLowerBounds.PolynomialModel.dyadic_overlap
+
+-- Endpoint.lean
+#print axioms SamplingLowerBounds.secondMoment_implies_logBound
+#print axioms SamplingLowerBounds.overlap_le_exp_of_logBound
+#print axioms SamplingLowerBounds.secondMoment_implies_exponentialOverlap
+#print axioms SamplingLowerBounds.oneThird_quadratic_gap
+#print axioms SamplingLowerBounds.oneThird_quadratic_rate
+#print axioms SamplingLowerBounds.oneThird_quadratic_overlap
+#print axioms SamplingLowerBounds.exists_dyadic_cube_size
+#print axioms SamplingLowerBounds.oneThird_gap_pos
+#print axioms SamplingLowerBounds.oneThird_rate_lower_bound
+#print axioms SamplingLowerBounds.oneThird_rate_ge_gap_sixth
+#print axioms SamplingLowerBounds.varianceSecondMoment_implies_logBound
+#print axioms SamplingLowerBounds.varianceSecondMoment_implies_exponentialOverlap
+#print axioms SamplingLowerBounds.dyadic_cubic_rate
+
+-- EntropyDecomposition.lean
+#print axioms SamplingLowerBounds.Information.uniformMass_pos
+#print axioms SamplingLowerBounds.Information.uniformMass_sum
+#print axioms SamplingLowerBounds.Information.finiteKL_uniform_eq_entropy_deficit
+#print axioms SamplingLowerBounds.Information.finiteKL_bernoulli_eq_binaryKL
+#print axioms SamplingLowerBounds.Information.finiteKL_bernoulli_product_decomposition
+#print axioms SamplingLowerBounds.Information.sampler_entropy_cost_decomposition
+#print axioms SamplingLowerBounds.Information.log_card_boolean_seed
+#print axioms SamplingLowerBounds.Information.bit_seed_entropy_cost_decomposition
+#print axioms SamplingLowerBounds.Information.sampler_entropy_cost_ge_of_affinity_bound
+
+-- FiniteInformation.lean
+#print axioms SamplingLowerBounds.Information.finiteKL_nonneg
+#print axioms SamplingLowerBounds.Information.finiteKL_le_log_of_domination
+#print axioms SamplingLowerBounds.Information.finiteKL_le_log_inv
+#print axioms SamplingLowerBounds.Information.log_inv_le_mul_log_inv
+#print axioms SamplingLowerBounds.Information.finiteKL_le_cube_budget
+#print axioms SamplingLowerBounds.Information.coordinate_test_sum_bound
+
+-- FinitePinsker.lean
+#print axioms SamplingLowerBounds.Information.finite_pinsker
+#print axioms SamplingLowerBounds.Information.finite_coordinate_test
+
+-- FlatGraph.lean
+#print axioms SamplingLowerBounds.FlatGraph.massOverlap_postprocess
+#print axioms SamplingLowerBounds.FlatGraph.pushMass_comp
+#print axioms SamplingLowerBounds.FlatGraph.pushMass_injective_at
+#print axioms SamplingLowerBounds.FlatGraph.pushMass_eq_zero_off_range
+#print axioms SamplingLowerBounds.FlatGraph.injective_uniform_mass
+#print axioms SamplingLowerBounds.FlatGraph.graphMap_injective
+#print axioms SamplingLowerBounds.FlatGraph.graphLaw_mass
+#print axioms SamplingLowerBounds.FlatGraph.graphLaw_nonneg
+#print axioms SamplingLowerBounds.FlatGraph.graphLaw_sum
+#print axioms SamplingLowerBounds.FlatGraph.graphLaw_support
+#print axioms SamplingLowerBounds.FlatGraph.graphLaw_support_card
+#print axioms SamplingLowerBounds.FlatGraph.graphLaw_label_projection
+#print axioms SamplingLowerBounds.FlatGraph.overlap_graph_le_label
+#print axioms SamplingLowerBounds.FlatGraph.overlap_graph_le_processed_labels
+#print axioms SamplingLowerBounds.FlatGraph.uniformMass_fst
+#print axioms SamplingLowerBounds.FlatGraph.uniformMass_unused_seed
+#print axioms SamplingLowerBounds.FlatGraph.boolean_graph_support_card
+#print axioms SamplingLowerBounds.FlatGraph.pointMass_overlap
+#print axioms SamplingLowerBounds.FlatGraph.pointMass_graph_overlap
+#print axioms SamplingLowerBounds.FlatGraph.uniform_graph_overlap
+
+-- FlatOptimality.lean
+#print axioms SamplingLowerBounds.PolynomialModel.constantSource_boolEval
+#print axioms SamplingLowerBounds.PolynomialModel.constantSource_outputLaw
+#print axioms SamplingLowerBounds.PolynomialModel.identitySource_outputLaw
+#print axioms SamplingLowerBounds.PolynomialModel.flat_entropy_le_dimension
+#print axioms SamplingLowerBounds.PolynomialModel.uniform_flat_overlap
+#print axioms SamplingLowerBounds.PolynomialModel.flat_overlap_lower_bound_max
+#print axioms SamplingLowerBounds.PolynomialModel.flat_overlap_lower_bound
+
+-- FunctionalRank.lean
+#print axioms SamplingLowerBounds.PolynomialModel.totalDegree_substitution
+#print axioms SamplingLowerBounds.PolynomialModel.bitIndicator_totalDegree
+#print axioms SamplingLowerBounds.PolynomialModel.eval_bitIndicator
+#print axioms SamplingLowerBounds.PolynomialModel.eval_truthTablePolynomial
+#print axioms SamplingLowerBounds.PolynomialModel.truthTablePolynomial_totalDegree
+#print axioms SamplingLowerBounds.PolynomialModel.eval_functionalComposition
+#print axioms SamplingLowerBounds.PolynomialModel.functionalComposition_totalDegree
+#print axioms SamplingLowerBounds.PolynomialModel.bounded_functional_rank_polynomial
+#print axioms SamplingLowerBounds.PolynomialModel.FunctionalSource.eval_toPolynomialSource
+
+-- GrowingDegree.lean
+#print axioms SamplingLowerBounds.FlatGraph.hierarchyBlocks_half
+#print axioms SamplingLowerBounds.FlatGraph.hierarchyBlocks_half_lower
+#print axioms SamplingLowerBounds.FlatGraph.growing_degree_power_bound
+#print axioms SamplingLowerBounds.FlatGraph.growing_degree_rate
+
+-- GrowingDegreeAsymptotic.lean
+#print axioms SamplingLowerBounds.FlatGraph.eventually_log_degree_loss_le_rpow
+#print axioms SamplingLowerBounds.FlatGraph.growing_degree_eventual_parameters
+#print axioms SamplingLowerBounds.FlatGraph.growing_degree_rate_eventually
+
+-- Hellinger.lean
+#print axioms SamplingLowerBounds.Information.bhattacharyyaCoeff_nonneg
+#print axioms SamplingLowerBounds.Information.bhattacharyyaCoeff_sq_le_overlap
+#print axioms SamplingLowerBounds.Information.bhattacharyyaCoeff_sq_le_twice_overlap
+#print axioms SamplingLowerBounds.Information.bhattacharyyaCoeff_le_one
+#print axioms SamplingLowerBounds.Information.sqrt_prod_nonneg
+#print axioms SamplingLowerBounds.Information.bhattacharyyaCoeff_productMass
+#print axioms SamplingLowerBounds.Information.tensor_power_remove_prefactor
+
+-- HellingerEntropy.lean
+#print axioms SamplingLowerBounds.Information.pushMass_eq_zero_of_positive_reference_zero
+#print axioms SamplingLowerBounds.Information.finiteKL_data_processing_any
+#print axioms SamplingLowerBounds.Information.bhattacharyyaCoeff_pos_of_reference_pos
+#print axioms SamplingLowerBounds.Information.finiteKL_add_ge_neg_log_affinity
+#print axioms SamplingLowerBounds.Information.sampler_entropy_ge_neg_log_affinity
+#print axioms SamplingLowerBounds.Information.pushMass_mul_pull
+#print axioms SamplingLowerBounds.Information.sampler_entropy_minimizer
+#print axioms SamplingLowerBounds.Information.sampler_entropy_isLeast
+
+-- HierarchyCost.lean
+#print axioms SamplingLowerBounds.PolynomialModel.multiplyBits_value
+#print axioms SamplingLowerBounds.PolynomialModel.costedAnd_true
+#print axioms SamplingLowerBounds.PolynomialModel.costedAnd_value
+#print axioms SamplingLowerBounds.PolynomialModel.costedAnd_cost
+#print axioms SamplingLowerBounds.PolynomialModel.costedBlocks_value
+#print axioms SamplingLowerBounds.PolynomialModel.costedBlocks_cost
+#print axioms SamplingLowerBounds.PolynomialModel.costedPaddedAND_value
+#print axioms SamplingLowerBounds.PolynomialModel.costedPaddedAND_cost
+#print axioms SamplingLowerBounds.PolynomialModel.costedCanonicalSampler_value
+#print axioms SamplingLowerBounds.PolynomialModel.costedCanonicalSampler_cost
+#print axioms SamplingLowerBounds.PolynomialModel.costedCanonicalSampler_cost_bound
+#print axioms SamplingLowerBounds.PolynomialModel.costedCanonicalSampler_is_polynomial
+
+-- HierarchySampling.lean
+#print axioms SamplingLowerBounds.FlatGraph.uniform_push_fintype
+#print axioms SamplingLowerBounds.FlatGraph.paddedTarget_at_encoding
+#print axioms SamplingLowerBounds.FlatGraph.paddedTarget_nonneg
+#print axioms SamplingLowerBounds.FlatGraph.paddedTarget_sum
+#print axioms SamplingLowerBounds.FlatGraph.paddedTarget_flat
+#print axioms SamplingLowerBounds.FlatGraph.paddedTarget_active_law
+#print axioms SamplingLowerBounds.FlatGraph.paddedTarget_overlap
+#print axioms SamplingLowerBounds.FlatGraph.hierarchy_size
+#print axioms SamplingLowerBounds.FlatGraph.hierarchyTarget_nonneg
+#print axioms SamplingLowerBounds.FlatGraph.hierarchyTarget_sum
+#print axioms SamplingLowerBounds.FlatGraph.hierarchyTarget_flat
+#print axioms SamplingLowerBounds.FlatGraph.hierarchySampler_outputLaw
+#print axioms SamplingLowerBounds.FlatGraph.hierarchySampler_exact_degree_of_blocks
+#print axioms SamplingLowerBounds.FlatGraph.hierarchySampler_exact_degree
+#print axioms SamplingLowerBounds.FlatGraph.hierarchySampler_locality
+#print axioms SamplingLowerBounds.FlatGraph.hierarchy_overlap
+#print axioms SamplingLowerBounds.FlatGraph.hierarchy_entropy_overlap
+
+-- LowerWitness.lean
+#print axioms SamplingLowerBounds.oneThird_constant_overlap
+#print axioms SamplingLowerBounds.finiteEntropy_flat
+
+-- Main.lean
+#print axioms SamplingLowerBounds.Main.oneThird
+#print axioms SamplingLowerBounds.Main.productBias
+#print axioms SamplingLowerBounds.Main.dyadicProduct
+#print axioms SamplingLowerBounds.Main.quadratic
+#print axioms SamplingLowerBounds.Main.hierarchy
+#print axioms SamplingLowerBounds.Main.growingDegree
+#print axioms SamplingLowerBounds.Main.hierarchy_not_degree_d
+
+-- MinimumWeight.lean
+#print axioms SamplingLowerBounds.PolynomialModel.slice_degree
+#print axioms SamplingLowerBounds.PolynomialModel.eval_slice
+#print axioms SamplingLowerBounds.PolynomialModel.sliceDifference_degree
+#print axioms SamplingLowerBounds.PolynomialModel.eval_monomial_cons
+#print axioms SamplingLowerBounds.PolynomialModel.eval_sliceDifference
+#print axioms SamplingLowerBounds.PolynomialModel.weight_nonneg
+#print axioms SamplingLowerBounds.PolynomialModel.accepted_eq_zero_iff
+#print axioms SamplingLowerBounds.PolynomialModel.weight_eq_zero_iff
+#print axioms SamplingLowerBounds.PolynomialModel.mean_F₂
+#print axioms SamplingLowerBounds.PolynomialModel.weight_slice
+#print axioms SamplingLowerBounds.PolynomialModel.weight_difference_of_left_zero
+#print axioms SamplingLowerBounds.PolynomialModel.weight_difference_of_right_zero
+#print axioms SamplingLowerBounds.PolynomialModel.weight_constant
+#print axioms SamplingLowerBounds.PolynomialModel.minimum_weight
+#print axioms SamplingLowerBounds.PolynomialModel.dyadic_acceptance_gap
+
+-- PolynomialHellinger.lean
+#print axioms SamplingLowerBounds.outputLaw_equiv
+#print axioms SamplingLowerBounds.outputLaw_pi
+#print axioms SamplingLowerBounds.bhattacharyyaCoeff_equiv
+#print axioms SamplingLowerBounds.PolynomialModel.Source.tensor_boolEval
+#print axioms SamplingLowerBounds.PolynomialModel.Source.tensor_outputLaw
+#print axioms SamplingLowerBounds.bernoulliProduct_blocks
+#print axioms SamplingLowerBounds.PolynomialModel.Source.tensor_affinity
+#print axioms SamplingLowerBounds.polynomial_oneThird_affinity
+#print axioms SamplingLowerBounds.polynomial_quadratic_affinity
+
+-- PolynomialModel.lean
+#print axioms SamplingLowerBounds.PolynomialModel.totalDegree_affine_substitution
+#print axioms SamplingLowerBounds.PolynomialModel.affineForm_totalDegree
+#print axioms SamplingLowerBounds.PolynomialModel.eval_affineForm
+#print axioms SamplingLowerBounds.PolynomialModel.affineRestriction_totalDegree
+#print axioms SamplingLowerBounds.PolynomialModel.eval_affineRestriction
+#print axioms SamplingLowerBounds.PolynomialModel.affine_mean_gap
+#print axioms SamplingLowerBounds.PolynomialModel.vertex_eq_affine
+#print axioms SamplingLowerBounds.PolynomialModel.cube_mean_gap
+#print axioms SamplingLowerBounds.PolynomialModel.bitValue_source_eval
+#print axioms SamplingLowerBounds.PolynomialModel.cube_source_gap
+
+-- PolynomialSampling.lean
+#print axioms SamplingLowerBounds.polynomial_oneThird_overlap
+#print axioms SamplingLowerBounds.polynomial_oneThird_exponential
+#print axioms SamplingLowerBounds.polynomial_product_exponential
+#print axioms SamplingLowerBounds.polynomial_quadratic_overlap
+
+-- ProductTests.lean
+#print axioms SamplingLowerBounds.Information.product_coordinate_test
+
+-- SamplingConsequences.lean
+#print axioms SamplingLowerBounds.functional_rank_product_exponential
+#print axioms SamplingLowerBounds.polynomial_entropy_cost
+#print axioms SamplingLowerBounds.polynomial_quadratic_entropy_cost
+
+-- SecondMoment.lean
+#print axioms SamplingLowerBounds.SecondMoment.expectation_const
+#print axioms SamplingLowerBounds.SecondMoment.expectation_mono
+#print axioms SamplingLowerBounds.SecondMoment.expectation_sum
+#print axioms SamplingLowerBounds.SecondMoment.expectation_div
+#print axioms SamplingLowerBounds.SecondMoment.average_square
+#print axioms SamplingLowerBounds.SecondMoment.expected_average_square
+#print axioms SamplingLowerBounds.SecondMoment.normalized_matrix_bound
+#print axioms SamplingLowerBounds.SecondMoment.bias_gap_lower_bound
+#print axioms SamplingLowerBounds.SecondMoment.bias_gap_second_moment_bound
+
+-- SourceProjection.lean
+#print axioms SamplingLowerBounds.PolynomialModel.Source.project_boolEval
+#print axioms SamplingLowerBounds.PolynomialModel.outputLaw_eq_pushMass
+#print axioms SamplingLowerBounds.PolynomialModel.outputLaw_postprocess
+#print axioms SamplingLowerBounds.PolynomialModel.Source.project_outputLaw
+
+-- SourceTranslations.lean
+#print axioms SamplingLowerBounds.PolynomialModel.xorVectorEquiv_twice
+#print axioms SamplingLowerBounds.PolynomialModel.pushMass_xor_twice
+#print axioms SamplingLowerBounds.PolynomialModel.f₂_add_bit_eq_xor
+#print axioms SamplingLowerBounds.PolynomialModel.Source.translate_boolEval
+#print axioms SamplingLowerBounds.PolynomialModel.Source.translate_outputLaw
+#print axioms SamplingLowerBounds.PolynomialModel.Source.overlap_translated_target
+#print axioms SamplingLowerBounds.polynomial_translated_target_bound
+#print axioms SamplingLowerBounds.polynomial_quadratic_translated_overlap
+
+-- Tensorization.lean
+#print axioms SamplingLowerBounds.Information.finiteKL_nonneg_of_support
+#print axioms SamplingLowerBounds.Information.marginal_nonneg
+#print axioms SamplingLowerBounds.Information.marginal_expectation
+#print axioms SamplingLowerBounds.Information.marginal_sum
+#print axioms SamplingLowerBounds.Information.le_marginal
+#print axioms SamplingLowerBounds.Information.productMass_sum
+#print axioms SamplingLowerBounds.Information.finiteKL_product_decomposition
+#print axioms SamplingLowerBounds.Information.finiteKL_tensorization
+
+-- Tilt.lean
+#print axioms SamplingLowerBounds.product_le_retained_one
+#print axioms SamplingLowerBounds.product_le_retained_pair
+#print axioms SamplingLowerBounds.finiteEventMass_nonneg
+#print axioms SamplingLowerBounds.tiltNormalizer_nonneg
+#print axioms SamplingLowerBounds.tiltNormalizer_le_one
+#print axioms SamplingLowerBounds.finiteTilt_nonneg
+#print axioms SamplingLowerBounds.finiteTilt_sum_eq_one
+#print axioms SamplingLowerBounds.finiteEventMass_mono_on
+#print axioms SamplingLowerBounds.finiteEventMass_div
+#print axioms SamplingLowerBounds.finiteEventMass_factor
+#print axioms SamplingLowerBounds.finiteEventMass_pair_factor
+#print axioms SamplingLowerBounds.tilted_event_le_retained
+#print axioms SamplingLowerBounds.tilted_single_marginal_le
+#print axioms SamplingLowerBounds.tilted_pair_marginal_le
+#print axioms SamplingLowerBounds.overlapRetention_nonneg
+#print axioms SamplingLowerBounds.overlapRetention_le_one
+#print axioms SamplingLowerBounds.mass_mul_overlapRetention
+#print axioms SamplingLowerBounds.finiteEventMass_sum_fibres
+#print axioms SamplingLowerBounds.finiteEventMass_sum_pair_fibres
+#print axioms SamplingLowerBounds.overlapRetention_weighted_fibre
+#print axioms SamplingLowerBounds.overlapRetention_expectation
+#print axioms SamplingLowerBounds.overlap_tilt_single_domination
+#print axioms SamplingLowerBounds.overlap_tilt_pair_domination
+
+-- UniformAmplification.lean
+#print axioms SamplingLowerBounds.oneThird_overlap_of_uniform_cube_gap
+
+-- VarianceAmplification.lean
+#print axioms SamplingLowerBounds.cube_diagonal_variance_bound
+#print axioms SamplingLowerBounds.cube_pair_variance_bound
+#print axioms SamplingLowerBounds.cubic_overlap_bound_of_cube_gap

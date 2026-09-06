@@ -1,0 +1,20 @@
+{
+  "checked_at_utc": "2026-09-05T22:36:44.061038+00:00",
+  "lean": "4.19.0",
+  "mathlib": "v4.19.0",
+  "module_count": 45,
+  "named_theorems_audited": 359,
+  "environment_theorems_audited": 517,
+  "verification_exit_code": 0,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "external_propositions": [
+    "KSOneThirdInput",
+    "PublishedAcceptanceGap",
+    "PublishedQuadraticGap"
+  ],
+  "log_sha256": "5d1ae82e6f4ec8e950a529c7e8c6548a4d9923b40bdfa814b6ea3c10eb06cbab"
+}

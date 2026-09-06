@@ -1,0 +1,513 @@
+PASS: checked 46 Lean source files for proof holes and trust extensions.
+ℹ [2022/2027] Replayed SamplingLowerBounds.PolynomialHellinger
+info: ././././SamplingLowerBounds/PolynomialHellinger.lean:152:37: Try this: ring_nf
+info: ././././SamplingLowerBounds/PolynomialHellinger.lean:174:37: Try this: ring_nf
+Build completed successfully.
+'SamplingLowerBounds.bernoulliProduct_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.bernoulliProduct_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.CubeTilt.singleLaw_expectation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.CubeTilt.pairLaw_expectation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.CubeTilt.pairedCoordinateLaw_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.CubeTilt.pairedCoordinateLaw_expectation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.CubeTilt.pairedCoordinateLaw_KL' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.overlap_bound_of_cube_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.AffinePair.affinePair_bijective' depends on axioms: [propext, Quot.sound]
+'SamplingLowerBounds.AffinePair.affinePair_expect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.AffinePair.affinePair_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.AffinePair.affinePair_factor_iterated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.AffinePair.differing_bits_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.AffinePair.vertex_as_offset' depends on axioms: [propext]
+'SamplingLowerBounds.AffinePair.cube_vertex_expect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.AffinePair.cube_single_expect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.AffinePair.shifted_cube_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.AffinePair.conditioned_cube_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.AffinePair.cube_pair_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.AffinePair.cube_pair_events' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.amplification_of_moment_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.amplification_of_coordinate_information' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.pushMass_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.uniformMass_function' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.blockAND_true_iff' depends on axioms: [propext, Quot.sound]
+'SamplingLowerBounds.FlatGraph.blockAND_true_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.blockAND_law' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.disjointAND_law' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.overlap_disjointAND_graph_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.paddedAND_active_law' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.overlap_paddedAND_graph_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.paddedAND_support_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.hierarchyBlocks_seed_bound' depends on axioms: [propext]
+'SamplingLowerBounds.FlatGraph.hierarchyBlocks_label_bound' depends on axioms: [propext]
+'SamplingLowerBounds.FlatGraph.hierarchySeed_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.hierarchyLabels_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.hierarchy_support_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.hierarchy_atom_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.hierarchy_ambient_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.hierarchyBlocks_entropy_bound_nat' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.FlatGraph.hierarchyBlocks_entropy_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.hierarchy_multiplication_count' depends on axioms: [propext]
+'SamplingLowerBounds.PolynomialModel.blockPolynomial_totalDegree' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.eval_blockPolynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.paddedLabelPolynomial_degree_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.paddedLabelPolynomial_active_degree' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.graphPolynomial_degree_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.graphPolynomial_degree_exact' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.paddedLabelPolynomial_locality' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.bool_product_eq_AND' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.eval_paddedAND_label' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.eval_graphPolynomial_bits' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.canonicalANDSource_exact_degree' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.canonicalANDSource_boolEval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.splitSeed_uniform' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.canonicalANDSource_outputLaw' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.canonicalDependencies_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.canonicalANDSource_locality' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.canonicalSampler_is_polynomial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.Information.bernoulliMass_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.bernoulliMass_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.bernoulli_variance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.bernoulli_pair_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.bernoulli_pair_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.bernoulli_diagonal_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.bernoulli_pair_variance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.bernoulli_diagonal_centered_mean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.Information.bernoulli_diagonal_centered_variance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.Information.bernoulli_diagonal_variance_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.Information.bernoulli_pair_abs_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.bernoulli_diagonal_centered_abs_le_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.Information.mul_log_div' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.binaryKL_eq_entropy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.binary_pinsker' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.finiteKL_variational' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.exp_le_one_add_add_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.finite_mgf_le_exp_variance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.product_mgf_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.product_mgf_le_exp_variance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.finite_entropy_variance_parametric' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.Information.entropy_variance_optimization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.Information.finite_entropy_bounded_variance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.FlatGraph.coordinateEncoding_active' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.coordinateEncoding_symm_active' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.FlatGraph.uniformMass_equiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.massOverlap_equiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Cube.card_tuple' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Cube.mean_sq_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Cube.mean_pow_two_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Cube.vertex_translate' depends on axioms: [propext]
+'SamplingLowerBounds.Cube.weight_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Cube.meanWeight_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Cube.mean_translate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Cube.mean_correlation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Cube.weighted_affine_cube_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Cube.meanWeight_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Cube.meanWeight_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.CubeTilt.uniformMass_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.CubeTilt.uniformMass_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.CubeTilt.uniformMass_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.CubeTilt.uniform_normalizer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.CubeTilt.uniform_event' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.CubeTilt.outputLaw_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.CubeTilt.outputLaw_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.CubeTilt.outputLaw_pos_on_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.CubeTilt.overlap_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.CubeTilt.overlap_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.CubeTilt.retention_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.CubeTilt.retention_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.CubeTilt.retention_expectation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.CubeTilt.parameter_normalizer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.CubeTilt.overlap_pow_le_normalizer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.CubeTilt.normalizer_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.CubeTilt.normalizer_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.CubeTilt.law_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.CubeTilt.law_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.CubeTilt.uniform_vertex_law' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.CubeTilt.uniform_pair_law' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.CubeTilt.single_domination' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.CubeTilt.pair_domination' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.CubeTilt.singleLaw_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.CubeTilt.pairLaw_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.CubeTilt.single_KL_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.CubeTilt.pair_KL_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.CubeTilt.information_budgets' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.pushMass_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.pushMass_expectation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.pushMass_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.le_pushMass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.pushMass_pos_of_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.finiteKL_data_processing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.dyadic_probability_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.dyadic_probability_lt_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.dyadic_cube_size' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.dyadic_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.secondMoment_implies_logBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.overlap_le_exp_of_logBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.secondMoment_implies_exponentialOverlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.oneThird_quadratic_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.oneThird_quadratic_rate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.oneThird_quadratic_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.exists_dyadic_cube_size' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.oneThird_gap_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.oneThird_rate_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.oneThird_rate_ge_gap_sixth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.varianceSecondMoment_implies_logBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.varianceSecondMoment_implies_exponentialOverlap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.dyadic_cubic_rate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.uniformMass_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.uniformMass_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.finiteKL_uniform_eq_entropy_deficit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.Information.finiteKL_bernoulli_eq_binaryKL' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.Information.finiteKL_bernoulli_product_decomposition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.Information.sampler_entropy_cost_decomposition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.Information.log_card_boolean_seed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.bit_seed_entropy_cost_decomposition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.Information.sampler_entropy_cost_ge_of_affinity_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.Information.finiteKL_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.finiteKL_le_log_of_domination' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.Information.finiteKL_le_log_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.log_inv_le_mul_log_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.finiteKL_le_cube_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.coordinate_test_sum_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.finite_pinsker' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.finite_coordinate_test' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.massOverlap_postprocess' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.pushMass_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.pushMass_injective_at' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.pushMass_eq_zero_off_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.injective_uniform_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.graphMap_injective' does not depend on any axioms
+'SamplingLowerBounds.FlatGraph.graphLaw_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.graphLaw_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.graphLaw_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.graphLaw_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.graphLaw_support_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.graphLaw_label_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.overlap_graph_le_label' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.overlap_graph_le_processed_labels' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.FlatGraph.uniformMass_fst' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.uniformMass_unused_seed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.boolean_graph_support_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.pointMass_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.pointMass_graph_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.uniform_graph_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.constantSource_boolEval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.constantSource_outputLaw' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.identitySource_outputLaw' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.flat_entropy_le_dimension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.uniform_flat_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.flat_overlap_lower_bound_max' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.flat_overlap_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.totalDegree_substitution' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.bitIndicator_totalDegree' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.eval_bitIndicator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.eval_truthTablePolynomial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.truthTablePolynomial_totalDegree' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.eval_functionalComposition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.functionalComposition_totalDegree' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.bounded_functional_rank_polynomial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.FunctionalSource.eval_toPolynomialSource' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.FlatGraph.hierarchyBlocks_half' depends on axioms: [propext, Quot.sound]
+'SamplingLowerBounds.FlatGraph.hierarchyBlocks_half_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.growing_degree_power_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.growing_degree_rate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.eventually_log_degree_loss_le_rpow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.FlatGraph.growing_degree_eventual_parameters' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.FlatGraph.growing_degree_rate_eventually' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.Information.bhattacharyyaCoeff_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.bhattacharyyaCoeff_sq_le_overlap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.Information.bhattacharyyaCoeff_sq_le_twice_overlap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.Information.bhattacharyyaCoeff_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.sqrt_prod_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.bhattacharyyaCoeff_productMass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.Information.tensor_power_remove_prefactor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.Information.pushMass_eq_zero_of_positive_reference_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.Information.finiteKL_data_processing_any' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.Information.bhattacharyyaCoeff_pos_of_reference_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.Information.finiteKL_add_ge_neg_log_affinity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.Information.sampler_entropy_ge_neg_log_affinity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.Information.pushMass_mul_pull' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.sampler_entropy_minimizer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.sampler_entropy_isLeast' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.multiplyBits_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.costedAnd_true' depends on axioms: [propext]
+'SamplingLowerBounds.PolynomialModel.costedAnd_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.costedAnd_cost' depends on axioms: [propext]
+'SamplingLowerBounds.PolynomialModel.costedBlocks_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.costedBlocks_cost' depends on axioms: [propext, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.costedPaddedAND_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.costedPaddedAND_cost' depends on axioms: [propext, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.costedCanonicalSampler_value' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.costedCanonicalSampler_cost' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.costedCanonicalSampler_cost_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.costedCanonicalSampler_is_polynomial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.FlatGraph.uniform_push_fintype' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.paddedTarget_at_encoding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.paddedTarget_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.paddedTarget_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.paddedTarget_flat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.paddedTarget_active_law' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.paddedTarget_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.hierarchy_size' depends on axioms: [propext, Quot.sound]
+'SamplingLowerBounds.FlatGraph.hierarchyTarget_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.hierarchyTarget_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.hierarchyTarget_flat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.hierarchySampler_outputLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.hierarchySampler_exact_degree_of_blocks' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.FlatGraph.hierarchySampler_exact_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.hierarchySampler_locality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.hierarchy_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.FlatGraph.hierarchy_entropy_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.oneThird_constant_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.finiteEntropy_flat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Main.oneThird' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Main.productBias' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Main.dyadicProduct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Main.quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Main.hierarchy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Main.growingDegree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Main.hierarchy_not_degree_d' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.slice_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.eval_slice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.sliceDifference_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.eval_monomial_cons' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.eval_sliceDifference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.weight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.accepted_eq_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.weight_eq_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.mean_F₂' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.weight_slice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.weight_difference_of_left_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.weight_difference_of_right_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.weight_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.minimum_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.dyadic_acceptance_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.outputLaw_equiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.outputLaw_pi' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.bhattacharyyaCoeff_equiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.Source.tensor_boolEval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.Source.tensor_outputLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.bernoulliProduct_blocks' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.Source.tensor_affinity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.polynomial_oneThird_affinity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.polynomial_quadratic_affinity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.totalDegree_affine_substitution' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.affineForm_totalDegree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.eval_affineForm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.affineRestriction_totalDegree' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.eval_affineRestriction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.affine_mean_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.vertex_eq_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.cube_mean_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.bitValue_source_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.cube_source_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.polynomial_oneThird_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.polynomial_oneThird_exponential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.polynomial_product_exponential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.polynomial_quadratic_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.product_coordinate_test' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.functional_rank_product_exponential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.polynomial_entropy_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.polynomial_quadratic_entropy_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.SecondMoment.expectation_const' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.SecondMoment.expectation_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.SecondMoment.expectation_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.SecondMoment.expectation_div' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.SecondMoment.average_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.SecondMoment.expected_average_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.SecondMoment.normalized_matrix_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.SecondMoment.bias_gap_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.SecondMoment.bias_gap_second_moment_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.Source.project_boolEval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.outputLaw_eq_pushMass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.outputLaw_postprocess' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.Source.project_outputLaw' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.xorVectorEquiv_twice' depends on axioms: [Quot.sound]
+'SamplingLowerBounds.PolynomialModel.pushMass_xor_twice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.f₂_add_bit_eq_xor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.PolynomialModel.Source.translate_boolEval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.Source.translate_outputLaw' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.PolynomialModel.Source.overlap_translated_target' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.polynomial_translated_target_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.polynomial_quadratic_translated_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.finiteKL_nonneg_of_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.marginal_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.marginal_expectation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.marginal_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.le_marginal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.productMass_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.Information.finiteKL_product_decomposition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SamplingLowerBounds.Information.finiteKL_tensorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.product_le_retained_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.product_le_retained_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.finiteEventMass_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.tiltNormalizer_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.tiltNormalizer_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.finiteTilt_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.finiteTilt_sum_eq_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.finiteEventMass_mono_on' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.finiteEventMass_div' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.finiteEventMass_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.finiteEventMass_pair_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.tilted_event_le_retained' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.tilted_single_marginal_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.tilted_pair_marginal_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.overlapRetention_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.overlapRetention_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.mass_mul_overlapRetention' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.finiteEventMass_sum_fibres' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.finiteEventMass_sum_pair_fibres' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.overlapRetention_weighted_fibre' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.overlapRetention_expectation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.overlap_tilt_single_domination' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.overlap_tilt_pair_domination' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.oneThird_overlap_of_uniform_cube_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.cube_diagonal_variance_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.cube_pair_variance_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SamplingLowerBounds.cubic_overlap_bound_of_cube_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+PASS: all 517 project theorem declarations use only standard Lean axioms.
+PASS: 359 audited declarations; only standard Lean axioms.
+Scope and external inputs: see FORMALIZATION_SCOPE.md and ExternalInputs.lean.
